@@ -26,7 +26,8 @@ h1{
 
 /* credits */
 .blue-text{
-    color: blue;
+    color: rgb(0, 195, 255);
+    font-weight: 800;
 }
 
 .credits{
@@ -67,7 +68,6 @@ width: 49%;
 
 /* lorem footer */
 .foto-grafico{
-    background-image: url(../img/graph.jpg);
     height: 200px;
     width: 300px;
     margin-top: 5px;
@@ -77,10 +77,32 @@ width: 49%;
 }
 
 .foto-monitor{
-    background-image: url(../img/monitor.jpg);
     height: 200px;
     width: 300px;
     margin-top: 5px;
     margin-left: 5px;
     color: white;
+}
+
+
+.img-footer{
+    background-image: url(../img/graph.jpg), url(../img/monitor.jpg);
+    background-position: left top, left bottom;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-left: 5px;
+    
+}
+
+/* POTREBBE INTERESSARTI */
+.credits-2{
+    color: grey;
+    font-weight: 800;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+/* TABELLA */
+th{
+    text-align: left;
 }
