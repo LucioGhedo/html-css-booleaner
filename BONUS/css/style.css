@@ -1,0 +1,93 @@
+/* reset */
+*{
+  margin: 0;
+  border-spacing: 0px;
+}
+
+/* BACKGROUND HEADER */
+.background-blue{
+    background-color: #4e9fff;
+    background-image: url('../img/pattern.png')
+}
+
+/* LOGO */
+.logo {
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+/* TITOLO */
+h1{
+    font-size: 80px;
+    margin-top: 15px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+/* credits */
+.blue-text{
+    color: blue;
+}
+
+.credits{
+    color: darkgray;
+    font-size: large;
+    margin-left: 5px;
+}
+
+/* PARAGRAFO */
+.p{
+    font-size: larger;
+    margin-left:5px ;
+}
+
+/* EVIDENZIO */
+.evidenzio{
+    background-color: yellow;
+}
+
+/* MARGINE SINISTRTO */
+.left{
+    margin-left: 5px;
+}
+
+/* tabella */
+.tab{
+width: 49%;
+}
+
+.tabella-colori{
+    background-color: #21a9e5;
+    color: white;
+}
+
+.dispari{
+    background-color: #b1e5f2;
+}
+
+/* lorem footer */
+.foto-grafico{
+    background-image: url(../img/graph.jpg);
+    height: 200px;
+    width: 300px;
+    margin-top: 5px;
+    color: white;
+    margin-left: 42%;
+
+}
+
+.foto-monitor{
+    background-image: url(../img/monitor.jpg);
+    height: 200px;
+    width: 300px;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    margin-left: 42%;
+}
+
+* {
+    text-align: center;
+}
+
