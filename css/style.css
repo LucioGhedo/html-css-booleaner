@@ -37,9 +37,29 @@ h1{
 /* PARAGRAFO */
 .p{
     font-size: larger;
+    margin-left:5px ;
 }
 
 /* EVIDENZIO */
 .evidenzio{
     background-color: yellow;
+}
+
+/* MARGINE SINISTRTO */
+.left{
+    margin-left: 5px;
+}
+
+/* tabella */
+.tab{
+width: 49%;
+}
+
+.tabella-colori{
+    background-color: #21a9e5;
+    color: white;
+}
+
+.dispari{
+    background-color: #b1e5f2;
 }
